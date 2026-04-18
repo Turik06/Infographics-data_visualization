@@ -55,14 +55,13 @@ FROM
   * **Назначение:** Отслеживание динамики баланса.
   * **Логика запроса:** Двойная группировка (день -\> неделя) с использованием функции накопления.
 
-![alt text](image-8.png)
-
+![alt text](image-9.png)
 ### 3.6. Анализ кэшбека по категориям
 
   * **Назначение:** Оценка выгоды по категориям.
   * **Логика запроса:** `SUM(bonusValue_clean)` с группировкой по категориям.
 
-![alt text](image-9.png)
+![alt text](image-14.png)
 
 -----
 
@@ -75,6 +74,6 @@ FROM
 
 ## 5\. Выгрузка
 
-Результаты работы также доступны в формате PDF: [Скачать отчет](https://www.google.com/search?q=./Metabase.pdf)
+Результаты работы также доступны в формате PDF: https://github.com/Turik06/Infographics-data_visualization/blob/master/hw_base/Metabase.pdf
 
 -----
